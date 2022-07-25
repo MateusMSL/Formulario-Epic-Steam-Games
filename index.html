@@ -1,0 +1,221 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Formulário de Cadastro de Jogos </title>
+    <meta charset="utf-8">
+</head>
+
+<body size="1" bgcolor="black" background="img/loop2.gif">
+    <table align="center">
+        <tr>
+            <th>
+                <font color="#AA16F7"> EPIC STEAM GAMES </font>
+                </t>
+        </tr>
+    </table>
+    </fieldset>
+
+
+    <p align="center">
+        <img src="img/Epic Steam Games.png" width="100" height="100" alt="Logo da Distribuidora" />
+    </p>
+
+
+    <table bgcolor="black" border="0" align="center" widght="500">
+        <tr>
+            <td>
+                <fieldset>
+                    <!-- Gera um Contorno para formulários -->
+                    <legend align="left">
+                        <font color="white"> Cadastro do Jogo </font>
+                    </legend>
+                    <form action="enviar.php" method="post" name="Cadastrojogos" align="left">
+
+                        <table border="0" cellpadding="13">
+                            <tr>
+                                <td> <label>
+                                        <font color="White"> Nome do Jogo:
+                                    </label></td>
+                                <td> <input type="text" id="nome" size="50" placeholder="Exemplo: Stardew Valley"
+                                        required /> </td>
+                            </tr>
+                            </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Categoria:
+                </label></td>
+            <td> <input type="text" id="nome" size="50" placeholder="Exemplo: Indie, Ação, RPG, Fantasia, FPS"
+                    required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="white"> Data de Lançamento
+                </label> </td>
+            <td> <input type="date" id="data_nasc" name="data_nasc" min="1958-01-01" max="2025-12-31" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Preço:
+                </label></td>
+            <td> <input type="text" id="nome" size="50" placeholder="Exemplo: 30.00" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Possui Multijogador?:
+                </label> </td>
+            <td> <label> <input type="radio" id="sexo" name="sexo" value="M" required />
+                    <font color="White"> Sim, multiplayer e tambem crossplay entre plataformas </font>
+                </label>
+                <input type="text" id="outro" name="outro" placeholder="Porfavor, Digite Quais" disabled />
+                <br />
+                <label> <input type="radio" id="sexo" name="sexo" value="F" required />
+                    <font color="White"> Não, não possui multiplayer </font>
+                </label>
+
+                <br />
+                <label> <input type="radio" id="sexo" name="sexo" value="M" required />
+                    <font color="White"> Sim, mas somente multiplayer em uma Plataforma especifica </font>
+                </label>
+                <input type="text" id="outro" name="outro" placeholder="Porfavor, Digite a Plataforma" disabled />
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Máximo de Players: </font>
+                </label> </td>
+            <td> <input type="number" name="cont" id="cont" min="1" max="100" required />
+            </td>
+        </tr>
+
+
+        <td> <label>
+                <font color="White"> Sobre o Jogo:
+            </label> </td>
+        <td> <textarea id="assunto" name="assunto" cols="60" rows="6" maxlength="500"
+                placeholder="Digite uma descrição do seu jogo (Máximo de 500 Carácteres)" required>
+</textarea>
+            </font>
+        </td>
+        </tr>
+    </table>
+    </fieldset>
+    </table>
+
+    </br> </br> </br>
+
+
+
+    <table bgcolor="black" color="white" border="0" align="center" widght="100">
+        <tr>
+            <td>
+                <fieldset>
+                    <legend align="center">
+                        <font color="white"> Dados da Empresa Responsável </font>
+                    </legend>
+                    <form action="index3.html" method="post" name="Cadastrojogos" align="left">
+
+                        <table border="0" cellpadding="13">
+                            <tr>
+                                <td> <label>
+                                        <font color="White"> Desenvolvedor(a):
+                                    </label></td>
+                                <td> <input type="text" id="nome" size="50" placeholder="Exemplo: ConcernedApe"
+                                        required /> </td>
+                            </tr>
+                            </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Direção Artistica:
+                </label></td>
+            <td> <input type="text" id="nome" size="50" placeholder="Exemplo: Ari Gibson" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Direção Musical:
+                </label></td>
+            <td> <input type="text" id="nome" size="50" placeholder="Exemplo: Christopher Larkin" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Distribuidora(a):
+                </label></td>
+            <td> <input type="text" id="nome" size="50" placeholder="Exemplo: EvilMojo" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Escolha a LOGO do seu jogo:
+                </label> </td>
+            <td> <input type="file" id="anexar" name="anexar" required /> </td>
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <td> <label>
+                    <font color="White"> Escolha a BANNER do seu jogo:
+                </label> </td>
+            <td> <input type="file" id="anexar" name="anexar" required /> </td>
+
+        </tr>
+        </font>
+        </td>
+        </tr>
+
+        <tr>
+            <th colspan="2" align="right">
+                <input type="reset" id="limpar" name="limpar" value="Apagar" />
+                <input type="submit" id="Cadastrar" name="Cadastrar" value="Cadastrar" />
+            </th>
+        </tr>
+    </table>
+
+    </fieldset>
+    </table>
+
+    <h5 align="left">
+        <font color="White"> 2022 Copyrith - Developed by Mateus Meira / @MateusMSL
+    </H5>
+
+    <a align="right" href="https://github.com/MateusMSL">
+        <font color="#AA16F7"> GitHub </font>
+    </a>
+
+
+</body>
+
+</html>
